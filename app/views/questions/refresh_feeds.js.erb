@@ -1,0 +1,5 @@
+<% if @type.eql?('question') %>
+	<%= render template: 'welcome/redirect_back' %>
+<% else %>
+	<%= render template: 'questions/show', locals: {'@question': @question, '@type': @type} %>
+<% end %>

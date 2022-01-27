@@ -1,0 +1,89 @@
+current directory: /Users/ashish/work/forum/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+/Users/ashish/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/ashish/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20220128-26164-olku7z.rb extconf.rb --with-cflags\=-Wno-implicit-function-declarati
+checking for ffi_prep_closure_loc() in -lffi... yes
+checking for ffi_prep_cif_var()... yes
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+checking for whether -pthread is accepted as LDFLAGS... yes
+creating extconf.h
+creating Makefile
+
+current directory: /Users/ashish/work/forum/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: /Users/ashish/work/forum/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+make "DESTDIR="
+compiling AbstractMemory.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling ArrayType.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling Buffer.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling Call.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling ClosurePool.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling DynamicLibrary.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling Function.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling FunctionInfo.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling LastError.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling LongDouble.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling MappedType.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling MemoryPointer.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling MethodHandle.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling Platform.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling Pointer.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling Struct.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling StructByValue.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling StructLayout.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling Thread.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling Type.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling Types.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling Variadic.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+compiling ffi.c
+warning: unknown warning option '-Wno-implicit-function-declarati'; did you mean '-Wno-implicit-function-declaration'? [-Wunknown-warning-option]
+1 warning generated.
+linking shared-object ffi_c.bundle
+
+current directory: /Users/ashish/work/forum/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20220128-26164-2zfil2

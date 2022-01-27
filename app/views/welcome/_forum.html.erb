@@ -1,0 +1,11 @@
+<div id="container">
+	<% if @user %>
+		<%=render 'welcome/post_something'%>
+		<br>	
+		<div class="feeds">
+			<% Question.all.includes(:user).each_with_index do |question, index| %>
+				<%= render partial: 'questions/listing', locals: { question: question, index: index + 1} %>
+			<% end %>
+		</div>
+	<%end%>
+</div>

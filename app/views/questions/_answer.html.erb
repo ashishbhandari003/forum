@@ -1,0 +1,4 @@
+<div id="<%= answer.id %>">
+	<p><%= "Answer:#{index} - posted by #{answer.user.email}" %>&nbsp;&nbsp;<%= (link_to 'Remove', destroy_an_answer_path(answer), remote: true) if answer.user.eql?(@user)%></p>
+	<p><%= answer.content %></p>
+</div>

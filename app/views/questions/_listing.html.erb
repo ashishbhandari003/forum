@@ -1,0 +1,4 @@
+<div id="<%= question.id %>">
+	<p><%= link_to "Question:#{index}", show_question_path(question), remote: true %> - posted by <%= question.user.email %>&nbsp;&nbsp;<%= (link_to 'Remove', delete_a_question_path(question), remote: true) if question.user.eql?(@user)%></p>
+	<p><%= question.content %></p>
+</div>

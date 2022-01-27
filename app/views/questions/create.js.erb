@@ -1,0 +1,2 @@
+$('#content').val('');
+$('.feeds:visible').append("<%= escape_javascript render(:partial => 'listing', :locals => { question: @question, index: Question.count }) %>");

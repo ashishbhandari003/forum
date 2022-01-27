@@ -1,0 +1,16 @@
+<div class="col-md-12 navbar">
+	<% if @user %>
+		<%= link_to 'Back', redirect_back_path, remote: true, id: 'back_btn', style: 'display: none;'%>&nbsp;&nbsp;
+		<%= link_to 'Logout', logout_path, method: :delete %>
+	<% else %>
+		<%= link_to 'Sign Up', sign_up_path %>
+		<%= link_to 'Sign In', sign_in_path %>
+	<% end %>
+</div>
+<script>
+	$(function() {
+		$('#back_btn').on('click', function() {
+			$(this).toggle();
+		})
+	})
+</script>

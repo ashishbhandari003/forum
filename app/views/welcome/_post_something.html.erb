@@ -1,0 +1,11 @@
+<div class="col-md-12">
+	<% @url = @type.eql?('question') ? post_a_question_path : post_an_answer_path(@question) %>
+	<%= form_tag(@url,  method: 'post', remote: true) do |f| %>
+		<div class="col-md-12">
+			<%= text_area_tag :content, '', placeholder: "Write a #{@type}... ", rows: 4, required: true %>
+		</div>
+		<%= submit_tag('&nbsp;Submit'.html_safe) %>
+	<% end %>
+</div>
+<br>
+<%= link_to 'Refresh', refresh_feeds_path(@type.eql?('answer') ? @question.id : @type), remote: true %>
